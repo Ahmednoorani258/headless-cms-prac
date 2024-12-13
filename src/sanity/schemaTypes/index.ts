@@ -3,7 +3,8 @@ import { eventType } from "@/sanity/schemaTypes/eventTypes";
 import { artistType } from "./artistType";
 import { venueType } from "./venueType";
 import { student } from "./student";
+import { teacher } from "./teacher";
 
 export const schema: { types: SchemaTypeDefinition[] } = {
-  types: [eventType, artistType, venueType, student],
+  types: [eventType, artistType, venueType, student, teacher],
 };
